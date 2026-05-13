@@ -1,0 +1,10 @@
+import React from 'react'
+
+export const Contact = () => {
+  return (
+    <>
+    <h1> Hello Contact Pages</h1>
+    
+    </>
+  )
+}
