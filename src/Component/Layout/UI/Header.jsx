@@ -60,6 +60,17 @@ export const Header = () => {
             Contact
           </NavLink>
 
+          
+          <NavLink
+            to="/movie"
+            className={({ isActive }) =>
+              isActive
+                ? "text-black font-bold border-b-2 border-black pb-1"
+                : "text-sm font-medium text-slate-600 hover:text-indigo-600"
+            }
+          >
+            movie
+          </NavLink>
         </nav>
 
         <div className="hidden md:block">

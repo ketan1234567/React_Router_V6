@@ -1,0 +1,9 @@
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 24px;
+  list-style: none;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1400px;
+}
