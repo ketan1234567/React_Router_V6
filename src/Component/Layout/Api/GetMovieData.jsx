@@ -3,7 +3,7 @@
 export const GetMovieData = async () => {
   try {
     const response = await fetch(
-      "https://www.omdbapi.com/?s=batman&apikey=1f7827b5"
+      `https://www.omdbapi.com/?s=batman&apikey=${import.meta.env.VITE_API_KEY}`
     );
 
     const data = await response.json();
